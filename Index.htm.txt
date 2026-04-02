@@ -1,0 +1,104 @@
+<!DOCTYPE html><html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Am Advanced Solutions</title>
+<style>
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#ffffff;color:#222}
+header{display:flex;align-items:center;justify-content:space-between;padding:15px 30px;background:#0b2a4a;color:white}
+.logo{display:flex;align-items:center;gap:10px}
+.logo svg{width:45px;height:45px}
+.logo span.am{color:#f4b400;font-weight:bold;font-size:22px}
+.logo span.rest{font-weight:bold;font-size:22px}
+nav a{color:white;margin-left:20px;text-decoration:none;font-weight:bold}
+.hero{height:80vh;background:url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1600&auto=format&fit=crop') center/cover no-repeat;display:flex;align-items:center;justify-content:center;text-align:center;color:white}
+.hero h1{font-size:48px;margin-bottom:10px}
+.hero p{font-size:20px}
+.section{padding:60px 30px}
+.section h2{text-align:center;margin-bottom:40px}
+.services{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:25px}
+.card{background:white;border-radius:10px;overflow:hidden;box-shadow:0 4px 10px rgba(0,0,0,0.1)}
+.card img{width:100%;height:180px;object-fit:cover}
+.card h3{margin:15px}
+.card p{margin:0 15px 20px 15px;font-size:14px}
+.quote{background:#0b2a4a;color:white;text-align:center}
+.quote input,.quote textarea{width:90%;max-width:500px;padding:10px;margin:10px;border:none;border-radius:5px}
+.quote button{background:#f4b400;border:none;padding:12px 25px;font-weight:bold;border-radius:6px;cursor:pointer}
+footer{background:#111;color:#ddd;text-align:center;padding:30px}
+</style>
+</head>
+<body><header>
+<div class="logo">
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+<circle cx="50" cy="35" r="18" fill="#f4b400"/>
+<polygon points="20,70 50,45 80,70" fill="#0b2a4a"/>
+<rect x="32" y="70" width="36" height="20" fill="#0b2a4a"/>
+</svg>
+<div><span class="am">Am</span> <span class="rest">ADVANCED SOLUTIONS</span></div>
+</div>
+<nav>
+<a href="#services">Services</a>
+<a href="#quote">Quote</a>
+<a href="#contact">Contact</a>
+</nav>
+</header><section class="hero">
+<div>
+<h1>Brightening Homes, One Sunrise at a Time</h1>
+<p>Professional Home Improvement & Property Solutions</p>
+</div>
+</section><section class="section" id="services">
+<h2>Our Services</h2>
+<div class="services"><div class="card">
+<img src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=1200&auto=format&fit=crop">
+<h3>Construction</h3>
+<p>Walls, structural work, home improvements and swimming pool construction.</p>
+</div><div class="card">
+<img src="https://images.unsplash.com/photo-1562259949-e8e7689d7828?q=80&w=1200&auto=format&fit=crop">
+<h3>Painting & Wall Finishes</h3>
+<p>Interior and exterior painting including decorative coatings and gamazine.</p>
+</div><div class="card">
+<img src="https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?q=80&w=1200&auto=format&fit=crop">
+<h3>Flooring Solutions</h3>
+<p>Wooden floors, epoxy coatings, tiles and floor restoration.</p>
+</div><div class="card">
+<img src="https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?q=80&w=1200&auto=format&fit=crop">
+<h3>Air Conditioning & Refrigeration</h3>
+<p>AC installations, maintenance, gas refills and refrigeration systems.</p>
+</div><div class="card">
+<img src="https://images.unsplash.com/photo-1598908314732-07113901949e?q=80&w=1200&auto=format&fit=crop">
+<h3>Paving</h3>
+<p>Driveways, walkways, paving repairs and sealing.</p>
+</div><div class="card">
+<img src="https://images.unsplash.com/photo-1598902108854-10e335adac99?q=80&w=1200&auto=format&fit=crop">
+<h3>Landscaping & Plants</h3>
+<p>Garden landscaping, grass installation, plant supply and tree planting.</p>
+</div><div class="card">
+<img src="https://images.unsplash.com/photo-1581578731548-c64695cc6952?q=80&w=1200&auto=format&fit=crop">
+<h3>Carpentry</h3>
+<p>Wardrobes, custom furniture and wood installations.</p>
+</div><div class="card">
+<img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?q=80&w=1200&auto=format&fit=crop">
+<h3>Property Maintenance</h3>
+<p>Roof repairs, gutters installation and general property maintenance.</p>
+</div><div class="card">
+<img src="https://images.unsplash.com/photo-1585128792020-803d29415281?q=80&w=1200&auto=format&fit=crop">
+<h3>Security Solutions</h3>
+<p>CCTV installation, fence spikes and property security upgrades.</p>
+</div><div class="card">
+<img src="https://images.unsplash.com/photo-1505691723518-36a5ac3b2d8f?q=80&w=1200&auto=format&fit=crop">
+<h3>Lighting Installation</h3>
+<p>Interior LED lighting and outdoor lighting systems.</p>
+</div></div>
+</section><section class="section quote" id="quote">
+<h2>Request a Quote</h2>
+<input type="text" placeholder="Your Name"><br>
+<input type="text" placeholder="Phone Number"><br>
+<input type="email" placeholder="Email"><br>
+<textarea rows="4" placeholder="Describe the job"></textarea><br>
+<button>Send Request</button>
+</section><footer id="contact">
+<p>Am Advanced Solutions</p>
+<p>Johannesburg | Gauteng</p>
+<p>Phone / WhatsApp: +27</p>
+</footer></body>
+</html>
